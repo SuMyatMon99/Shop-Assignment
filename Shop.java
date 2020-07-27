@@ -66,7 +66,7 @@ public class Shop {
 			Shop s = new Shop(c, sExp, pExp, new Date());
 			s.show();
 			
-			System.out.print("Any customre left?[yes/no]");
+			System.out.print("Any customer left?[yes/no]");
 			ans = sc.next();
 			
 		}while(ans.equals("yes"));
